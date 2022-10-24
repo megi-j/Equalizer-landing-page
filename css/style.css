@@ -1,18 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 .container {
     max-width: 1440px;
     width: 100%;
-    /* height: 100vh; */
     margin: 0 auto;
-    border: 1px solid red;
     background-image: url('/images/bg-main-desktop.png');
     background-position: top center;
-    /* background-size: cover; */
-    
-
 }
 .header-photo {
-    /* display: flex;
-    justify-content: center; */
     position: relative;
 }
 .photo {
@@ -26,20 +21,16 @@ header {
     padding-top: 62px;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
+    
 }
 main {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
     width: 80%;
     margin: 0 auto;
     padding-right: 200px;
     margin-top: 150px;
-    border: 1px solid red;
 }
 main h1 {
+    font-family: 'IBM Plex Sans';
     font-size: 88px;
     font-weight: 700;
     line-height: 88px;
@@ -52,7 +43,7 @@ main p {
     line-height: 34px;
     color: #191826;
     padding-right: 160px;
-    /* width: 90%; */
+    font-family: 'IBM Plex Sans';
 }
 section {
     width: 80%;
@@ -97,40 +88,85 @@ section {
     font-size: 40px;
     color: #FCFAF9;
     font-weight: 700;
+    font-family: 'IBM Plex Sans';
 }
 .orange-div p{
     color: #FCFAF9;
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
-    
+    font-family: 'IBM Plex Sans';
 }
 .orange-div h6{
     font-weight: 700;
     font-size: 65px;
     color: #FCFAF9;
-    
+    font-family: 'IBM Plex Sans';
 }
 .orange-div span {
     font-weight: 400;
     font-size: 20px;
+    font-family: 'IBM Plex Sans';
 }
 .orange-div button {
     border: none;
     background-color: none;
-    
+    font-family: 'IBM Plex Sans';
     height: 61px;
     border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ios{
     background-color: #191826;
     color: #FCFAF9;
     font-weight: 700;
     font-size: 18px;
+    cursor: pointer;
+}
+.ios:hover {
+    background-color: #66E2DC;
+}
+.android:hover {
+    background-color: #FFB964;
+}
+.ios img, .android img {
+    margin-right: 8px;
 }
 .android {
     background-color: #FCFAF9;
     color: #191826;
     font-weight: 700;
     font-size: 18px;
+    cursor: pointer;
+}
+footer {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 202px;
+    margin-bottom: 91px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    width: 366px;
+    
+}
+.contact p {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    line-height: 26px;
+}
+.social-icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+path:hover{
+    fill: #FFB964;
+}
+.logo {
+    width: 146px;
+    height: 32px;
 }
