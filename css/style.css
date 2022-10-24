@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
 .container {
     max-width: 1440px;
     width: 100%;
@@ -44,6 +45,7 @@ main p {
     color: #191826;
     padding-right: 160px;
     font-family: 'IBM Plex Sans';
+    font-weight: 400;
 }
 section {
     width: 80%;
@@ -52,6 +54,7 @@ section {
     height: 600px;
     position: relative;
     margin-top: 321px;
+    border-radius: 12px;
 }
 .colorful-photo {
     position: absolute;
@@ -169,4 +172,9 @@ path:hover{
 .logo {
     width: 146px;
     height: 32px;
+}
+.logo-contact-div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }

@@ -1,0 +1,56 @@
+@media(max-width: 768px){
+    .container{
+        background-image: url("/images/bg-main-tablet.png");
+    }
+    .photo {
+        right: -50px;
+        top: -50px;
+    }
+    main h1{
+        font-size: 64px;
+        line-height: 64px;
+        
+    }
+    main {
+        margin-top: 100px;
+    }
+    main p{
+        font-size: 18px;
+        line-height: 28px;
+        padding-right: 0;
+    }
+    .mobile {
+        width: 270.21px;
+        height: 556px;
+        left: 25px;
+        top: -140px;
+    }
+    .orange-div{
+        width: 399px;
+        height: 546px;
+        z-index: 2;
+        right: 25px;
+        top: 150px;
+    }
+    .colorful-photo {
+        left: 55%;
+        top: -5%;
+    }
+    .orange-div div{
+        width: 302px;
+    }
+    .orange-div h3{
+        font-size: 32px;
+    }
+    .orange-div p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    .logo-contact-div{
+        flex-direction: column;
+    }
+
+}
