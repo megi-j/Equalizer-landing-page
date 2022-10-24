@@ -148,7 +148,7 @@ footer {
     width: 80%;
     margin: 0 auto;
     margin-top: 202px;
-    margin-bottom: 91px;
+    padding-bottom: 91px;
     display: flex;
     justify-content: space-between;
 }
